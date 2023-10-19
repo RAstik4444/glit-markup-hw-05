@@ -278,6 +278,21 @@ h3 {
     color: #404BBF;
 }
 
+.link--current:hover,
+.link--current:focus {
+    color: #404BBF;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.link--current::after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+    border-radius: 2px;
+}
+
 .link-portfolio {
     text-decoration: none;
     display: block;

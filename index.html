@@ -23,14 +23,14 @@
                 <a href="./index.html" class="link logo-general lgo">Web<span class="logo-studio">Studio</span>
                 </a>
                 <ul class="list link menu">
-                    <li>
+                    <li class="link--current">
                         <a href="./index.html" class="link studio menu-link">Studio</a>
                     </li>
-                    <li>
+                    <li class="link--current">
                         <a href="./portfolio.html" class="link studio menu-link">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="" class="link studio menu-link">Contacts</a>
+                    <li class="link--current">
+                        <a href="#" class="link studio menu-link">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -47,7 +47,7 @@
         <section class="section-one">
             <div class="container">
                 <h1 class="main-head">Effective Solutions for Your Business</h1>
-                <button type="button" class="btn-serv btn-order">Order Service</button>
+                <button type="button" class="btn-serv btn-order" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="section-second">
@@ -295,10 +295,11 @@
             </div>
         </div>
     </footer>
-    <button data-modal-open>Open</button>
 
     <div class="modal is-hidden" data-modal>
-        <button data-modal-close>X</button>
+        <div class="modal-box">
+            <button type="button" class="button-modal-close" data-modal-close>X</button>
+        </div>
     </div>
 
     <skript src="./js/modal.js"></skript>
