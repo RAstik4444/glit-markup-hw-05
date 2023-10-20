@@ -47,7 +47,7 @@
         <section class="section-one">
             <div class="container">
                 <h1 class="main-head">Effective Solutions for Your Business</h1>
-                <button data-modal-open type="button" class="btn-serv btn-order">Order Service</button>
+                <button type="button" class="btn-serv btn-order" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="section-second">
@@ -295,12 +295,13 @@
             </div>
         </div>
     </footer>
-    <aside class="modal-window is-hidden" data-modal>
-        <section class="modal-body">
-            <button type="button" class="button-modal-close" data-modal-close>X</button>
-            <h2>hello world</h2>
-        </section>
-    </aside>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>X</button>
+        </div>
+    </div>
+
     <skript src="./js/modal.js"></skript>
 </body>
 
