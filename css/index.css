@@ -285,7 +285,7 @@ h3 {
 
 .link--current {
     position: relative;
-    color: var(--pressed-state-color);
+    color: #404bbf;
 }
 
 .link--current::after {
@@ -401,6 +401,7 @@ h3 {
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
