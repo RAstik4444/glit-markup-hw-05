@@ -287,7 +287,7 @@ h3 {
     color: var(--pressed-state-color);
 }
 
-.link--current {
+a.link--current {
     position: relative;
     color: #404bbf;
 }
